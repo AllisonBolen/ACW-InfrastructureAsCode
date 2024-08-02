@@ -5,8 +5,26 @@
         "rgName": {
             "value": "iac-training-rg"
         },
-        "location":{
+        "location": {
             "value": "eastus"
+        },
+        "uniqueIdentifier": {
+            "value": "20291231acw"
+        },
+        "sqlServerName": {
+            "value": "ContactWebDBServer"
+        },
+        "sqlDatabaseName": {
+            "value": "ContactWebDB"
+        },
+        "sqlServerAdminLogin": {
+            "value": "contactwebdbuser"
+        },
+        "sqlServerAdminPassword": {
+            "value": "workshopDbPwd#54321!"
+        },
+        "clientIPAddress": {
+            "value": "153.106.237.15"
         }
     }
 }
