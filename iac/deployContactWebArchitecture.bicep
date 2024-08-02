@@ -98,3 +98,16 @@ module contactWebVault 'keyVault.bicep' = {
     sqlServerAdminPassword: sqlServerAdminPassword
   }
 }
+
+
+module updateContactWebAppSettings 'contactWebAppServiceSettingsUpdate.bicep' = {
+  name: '${webAppName}-updatingAppSettings'
+  scope: contactWebResourceGroup
+  params: {
+    webAppName: contactWebApplicationPlanAndSite.outputs.webAppFullName
+    defaultDBSecretURI: contactWebVault.outputs.identityDBConnectionSecretURI
+    managerDBSecretURI: contactWebVault.outputs.managerDBConnectionSecretURI
+    identityDBConnectionStringKey: identityDBConnectionStringKey
+    managerDBConnectionStringKey: managerDBConnectionStringKey
+  }
+}
