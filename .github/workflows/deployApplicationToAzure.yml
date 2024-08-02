@@ -19,7 +19,7 @@ env:
   AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
   AZURE_CLIENT_ID_CONTACTWEB_DEV: '${{ secrets.AZURE_CLIENT_ID_CONTACTWEB_DEV }}'
   #Working Directory [must map to the location of your .NET Project]
-  WORKING_DIRECTORY: 'src/ContactWebEFCore6'  
+  WORKING_DIRECTORY: 'src/true/ContactWebEFCore6'  
 
 permissions:
       id-token: write
