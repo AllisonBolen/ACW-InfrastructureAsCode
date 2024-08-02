@@ -34,6 +34,24 @@
         },
         "logAnalyticsWorkspaceId": {
             "value": "/subscriptions/a067bffb-a5c4-4510-abd4-5a1f96d5aa0f/resourcegroups/rg-iac-bcc/providers/microsoft.operationalinsights/workspaces/contactwebanalytics"
-        }  
+        },
+        "appServicePlanName": {
+            "value": "contactWebASP"
+        },
+        "appServicePlanSku": {
+            "value": "F1"
+        },
+        "webAppName": {
+            "value": "ContactWeb"
+        },
+        "identityDBConnectionStringKey": {
+            "value": "ConnectionStrings:DefaultConnection"
+        },
+        "managerDBConnectionStringKey": {
+            "value": "ConnectionStrings:MyContactManager"
+        },
+        "appInsightsConnectionStringKey": { 
+            "value": "APPINSIGHTS:CONNECTIONSTRING"
+        }
     }
 }
