@@ -28,6 +28,12 @@
         },
         "logAnalyticsWorkspaceName": {
             "value": "contactWebAnalytics"
-        }
+        },
+        "appInsightsName": {
+            "value": "contactWebAppInsights"
+        },
+        "logAnalyticsWorkspaceId": {
+            "value": "/subscriptions/a067bffb-a5c4-4510-abd4-5a1f96d5aa0f/resourcegroups/rg-iac-bcc/providers/microsoft.operationalinsights/workspaces/contactwebanalytics"
+        }  
     }
 }
