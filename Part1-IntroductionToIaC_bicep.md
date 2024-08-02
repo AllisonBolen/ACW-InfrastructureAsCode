@@ -507,8 +507,7 @@ As mentioned above, everything is great when the string for the storage account 
     @minLength(3)
     param storageAccountName string
     param location string = resourceGroup().location
-    @minLength(11)
-    @maxLength(11)
+  
     param uniqueIdentifier string
 
     var storageAccountNameFull = substring('${storageAccountName}${uniqueIdentifier}${uniqueString(resourceGroup().id)})}', 0, 24)

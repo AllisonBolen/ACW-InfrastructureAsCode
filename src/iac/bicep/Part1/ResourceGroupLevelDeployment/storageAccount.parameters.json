@@ -5,7 +5,7 @@
         "storageAccountName": {
             "value": "mystorage"
         },
-        "uniqueIdentifier": {
+        "uid": {
             "value": "20291231acw"
         },
         "environment": {
