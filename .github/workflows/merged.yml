@@ -19,7 +19,7 @@ env:
   DOTNET_VERSION: '6.0.x' 
   AZURE_WEB_APP_NAME: 'ContactWeb-20291231acw' 
   AZURE_WEB_APP_SLOT: 'Production' 
-  WORKING_DIRECTORY: 'src/ContactWebEFCore6' 
+  WORKING_DIRECTORY: 'src/true/ContactWebEFCore6' 
 
 permissions:
   id-token: write
