@@ -6,7 +6,7 @@
             "value": "iac-training-rg"
         },
         "location": {
-            "value": "eastus"
+            "value": "eastus2"
         },
         "uniqueIdentifier": {
             "value": "20291231acw"
